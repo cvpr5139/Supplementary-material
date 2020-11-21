@@ -47,7 +47,7 @@ Train code will be available after the final decision.
 
 1. Download our pre-trained models.
 
-   [[pre-trained models]](https://drive.google.com/drive/folders/1_IoLAnq3XA3X5tvcZM3eWx2j_jZ8w6bm?usp=sharing) (This repository link is anonymized.)
+   [[pre-trained models]](https://drive.google.com/drive/folders/19IbKloMhysMOlfq1Hns1VqbjiYt2A-mx?usp=sharing) (This repository link is anonymized.)
 
 2. Place pre-trained models in 'save' directory.
 
