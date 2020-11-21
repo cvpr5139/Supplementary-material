@@ -59,16 +59,16 @@ The result of every clips of each database is in the 'save' directory as a txt f
 
 - UCSD Ped2
     ```bash
-    python Evaluation.py --datapath [directory of database] --dataset Ped2 --flow_L 1 --checkpoint './save/FINAL_Ped2/Backbone.pth' --checkpoint_flowslow './save/FINAL_Ped2/Flow_slow.pth' --checkpoint_flowfast './save/FINAL_Ped2/Flow_fast.pth' --modelsave 'FINAL_Ped2'
+    python Evaluation.py --datapath '/home/myeongah/AnomalyDetection/database' --dataset Ped2 --flow_L 1 --checkpoint './save/FINAL_Ped2/Backbone.pth' --checkpoint_flow_static './save/FINAL_Ped2/Flow_static.pth' --checkpoint_flow_dynamic './save/FINAL_Ped2/Flow_dynamic.pth' --modelsave 'FINAL_Ped2'
     ```
 
 - CUHK Avenue
     ```bash
-    python Evaluation.py --datapath [directory of database] --dataset Avenue --checkpoint './save/FINAL_AV/Backbone.pth' --checkpoint_flowslow './save/FINAL_AV/Flow_slow.pth' --checkpoint_flowfast './save/FINAL_AV/Flow_fast.pth' --modelsave 'FINAL_AV'
+    python Evaluation.py --datapath '/home/myeongah/AnomalyDetection/database' --dataset Avenue --checkpoint './save/FINAL_CUHK/Backbone.pth' --checkpoint_flow_static './save/FINAL_CUHK/Flow_static.pth' --checkpoint_flow_dynamic './save/FINAL_CUHK/Flow_dynamic.pth' --modelsave 'FINAL_CUHK'
     ```
 
 - Shanghai Tech Campus
     ```bash
-    python Evaluation.py --datapath [directory of database] --dataset shanghaitech --checkpoint './save/FINAL_ST/Backbone.pth' --checkpoint_flowslow './save/FINAL_ST/Flow_slow.pth' --checkpoint_flowfast './save/FINAL_ST/Flow_fast.pth' --modelsave 'FINAL_ST'
+    python Evaluation.py --datapath '/home/myeongah/AnomalyDetection/database' --dataset shanghaitech --checkpoint './save/FINAL_ST/Backbone.pth' --checkpoint_flow_static './save/FINAL_ST/Flow_static.pth' --checkpoint_flow_dynamic './save/FINAL_ST/Flow_dynamic.pth' --modelsave 'FINAL_ST'
     ```
 
